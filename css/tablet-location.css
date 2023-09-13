@@ -1,0 +1,41 @@
+@media only screen and (min-width: 768px) {
+
+    /* LOCATION INFO */
+
+    body .map button {
+        left: 2rem;
+    }
+
+    body .our-location {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5rem 3rem;
+    }
+
+    .our-location h2 {
+        width: 15%;
+    }
+
+    .address {
+        width: 60%;
+    }
+
+    /* LOCATION FOOTER */
+
+    body .location-footer {
+        flex-direction: row;
+        padding: 3rem 3rem;
+        align-items: start;
+    }
+
+
+    body .location-footer h1 {
+        width: 100px;
+    }
+
+    body .location-footer p {
+        width: 40%;
+        margin-right: 25%;
+        margin-left: 10%;
+    }
+}

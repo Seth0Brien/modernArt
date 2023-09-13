@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+span {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.black-desktop {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+.gallery-header {
+    padding: 2rem 1rem;
+    margin-bottom: 20%;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+/* header button */
+
+.gallery-header button {
+    width: 240px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.gallery-header>button>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+
+}
+
+button a {
+    background-color: #151515;
+    width: 100%;
+    height: 100%;
+}
+
+button a:hover {
+    background-color: #D5966C;
+}
+
+button:hover span:nth-child(2) {
+    background-color: black;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5966C;
+    height: 100%;
+    width: 15%;
+
+}
+
+button a span:nth-child(1) {
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* day at the gallery */
+
+.day-at-the-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.gallery-description {
+    padding: 1.5rem 0;
+}
+
+.gallery-description p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+/* collage */
+
+.collage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collage img {
+    padding-bottom: 1rem;
+}
+
+.final-message {
+    background-color: #151515;
+    padding: 3rem 1rem;
+    margin-bottom: 20%;
+}
+
+.final-message p {
+    color: #999;
+    font-size: 18px;
+    padding-left: 1rem;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 900;
+    width: 300px;
+    color: white;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #151515;
+}
+
+.inner-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    background-color: #151515;
+}
+
+footer h1 {
+    color: #FFF;
+    font-size: 20px;
+    width: 40%;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    color: #999;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}

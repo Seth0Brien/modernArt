@@ -1,0 +1,87 @@
+@media only screen and (min-width: 1024px) {
+
+    /* header */
+
+    header {
+        flex-direction: row;
+        position: relative;
+    }
+
+    .black-desktop {
+        display: block;
+        background-color: #151515;
+        width: 50%;
+    }
+
+
+    .gallery-header h1 {
+        position: absolute;
+        left: -200%;
+        font-size: 70px;
+        color: white;
+        mix-blend-mode: difference;
+        z-index: 2;
+    }
+
+    .gallery-header {
+        width: 290px;
+        position: absolute;
+        right: -20%;
+    }
+
+    /* main */
+
+    .gallery-description {
+        width: 300px;
+    }
+
+    .day-at-the-gallery {
+        margin-bottom: 1.5rem;
+    }
+
+    .day-at-the-gallery img {
+        width: 100%;
+    }
+
+    main {
+        width: 850px;
+    }
+
+    .collage {
+        row-gap: 0;
+        align-items: start;
+    }
+
+    .collage img {
+        width: 520px;
+    }
+
+    .right-side img {
+        width: 300px;
+    }
+
+    .final-message {
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        height: 355px;
+        margin-top: 1rem;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 5rem 10% 3rem 10%;
+        width: 80%;
+    }
+
+    footer h1 {
+        margin-right: 10%;
+        width: 150px;
+    }
+
+    footer p {
+        width: 40%;
+        margin-left: auto;
+    }
+}
